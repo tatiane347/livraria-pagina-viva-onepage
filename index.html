@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Viva 📚</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand logo-nome" href="#">Página Viva <span class="destaque">📚</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom" href="#depoimentos">Opiniões</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom" href="#destaques">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="d-flex align-items-center text-center">
+        <div class="container">
+            <h1 class="display-2 mb-3 animacao-texto">Onde cada livro é uma <span class="destaque">Página Viva</span>.</h1>
+            <p class="lead mb-4 animacao-subtexto">Sua próxima grande aventura começa aqui.</p>
+            <a href="#destaques" class="btn btn-lg btn-custom-action pulsante">Ver Catálogo</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 titulo-secao">Sobre a Página Viva</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <p class="lead">Nascemos da paixão por histórias e do desejo de criar um refúgio para leitores.</p>
+                    <p>Acreditamos no poder transformador dos livros. Nosso acervo é cuidadosamente selecionado para garantir que você encontre não apenas um livro, mas uma nova perspectiva, um novo mundo.</p>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><span class="destaque me-2">★</span> Curadoria Especializada</li>
+                        <li class="mb-3"><span class="destaque me-2">★</span> Foco em Diversidade de Gêneros</li>
+                        <li class="mb-3"><span class="destaque me-2">★</span> Ambiente Acolhedor (Digital)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="py-5 bg-depoimentos-color">
+        <div class="container">
+            <h2 class="text-center mb-5 titulo-secao-depoimentos">O que nossos leitores dizem</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card card-depoimento h-100">
+                        <div class="card-body">
+                            <i class="bi bi-chat-quote-fill quote-icon mb-3"></i>
+                            <p class="card-text">"A curadoria é impecável. Sempre encontro títulos que nem sabia que procurava. A 'Página Viva' virou minha única livraria online!"</p>
+                            <footer class="blockquote-footer mt-2"><cite title="Carlos A." class="destaque">Carlos A.</cite></footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-depoimento h-100">
+                        <div class="card-body">
+                            <i class="bi bi-chat-quote-fill quote-icon mb-3"></i>
+                            <p class="card-text">"O site é lindo e super fácil de navegar. O alto contraste é perfeito para quem passa horas lendo. Nota 10 em UX!"</p>
+                            <footer class="blockquote-footer mt-2"><cite title="Mariana S." class="destaque">Mariana S.</cite></footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-depoimento h-100">
+                        <div class="card-body">
+                            <i class="bi bi-chat-quote-fill quote-icon mb-3"></i>
+                            <p class="card-text">"Entrega rápida e embalagem cuidadosa. É o carinho pelos livros que me faz voltar sempre. Recomendo a todos os amantes de leitura."</p>
+                            <footer class="blockquote-footer mt-2"><cite title="Rafaela M." class="destaque">Rafaela M.</cite></footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destaques" class="py-5 bg-light-contrast">
+        <div class="container">
+            <h2 class="text-center mb-5 titulo-secao-dark">Nossos Destaques</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card card-custom-dark h-100 animacao-card">
+                        <div class="card-body">
+                            <h5 class="card-title destaque">O Despertar da Aurora</h5>
+                            <p class="card-text text-light-contrast">Um épico de fantasia com uma protagonista inesquecível e um mundo repleto de magia ancestral.</p>
+                            <a href="#" class="btn btn-sm btn-outline-custom">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-custom-dark h-100 animacao-card delay-1">
+                        <div class="card-body">
+                            <h5 class="card-title destaque">A Ciência do Amanhã</h5>
+                            <p class="card-text text-light-contrast">Uma análise profunda sobre as inovações tecnológicas que moldarão o próximo século.</p>
+                            <a href="#" class="btn btn-sm btn-outline-custom">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-custom-dark h-100 animacao-card delay-2">
+                        <div class="card-body">
+                            <h5 class="card-title destaque">Crônicas da Cidade</h5>
+                            <p class="card-text text-light-contrast">Um romance policial eletrizante ambientado nas vielas de uma metrópole vibrante.</p>
+                            <a href="#" class="btn btn-sm btn-outline-custom">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-custom-dark h-100 animacao-card">
+                        <div class="card-body">
+                            <h5 class="card-title destaque">O Caminho do Monge</h5>
+                            <p class="card-text text-light-contrast">Guia prático para a meditação e o autoconhecimento, ideal para iniciantes.</p>
+                            <a href="#" class="btn btn-sm btn-outline-custom">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-custom-dark h-100 animacao-card delay-1">
+                        <div class="card-body">
+                            <h5 class="card-title destaque">Receitas do Mundo</h5>
+                            <p class="card-text text-light-contrast">Um livro de culinária com sabores exóticos e técnicas de chef para sua cozinha.</p>
+                            <a href="#" class="btn btn-sm btn-outline-custom">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-custom-dark h-100 animacao-card delay-2">
+                        <div class="card-body">
+                            <h5 class="card-title destaque">Poemas do Entardecer</h5>
+                            <p class="card-text text-light-contrast">Coletânea de poesias líricas que exploram a beleza e a melancolia do cotidiano.</p>
+                            <a href="#" class="btn btn-sm btn-outline-custom">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 titulo-secao">Fale Conosco</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form class="p-4 p-md-5 rounded-3 form-custom">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom-action w-100">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <div class="container">
+            
+            <div class="social-icons mb-3">
+                <a href="#" class="social-link" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="social-link" title="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="social-link" title="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="social-link" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            </div>
+
+            <p class="mb-0">&copy; 2025 Página Viva - Todos os direitos reservados.</p>
+            <p class="mb-0 mt-1">Criado por **Tatiane Nascimento** com <span class="destaque-pequeno">HTML, CSS, JS e Bootstrap.</span></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
